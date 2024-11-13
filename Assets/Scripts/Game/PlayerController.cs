@@ -134,7 +134,7 @@ public class PlayerController : MonoBehaviour
 
         
 
-        if(Time.timeScale != 0)
+        if(Input.GetKey(KeyCode.Space) && Time.timeScale != 0)
         {
             if ( Time.time > nextFire)
             {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss : MonoBehaviour
 {
-    [SerializeField] private int hp = 30;
+    [SerializeField] private int hp;
     private ObjectPooler objectPooler;
     // Start is called before the first frame update
     void Start()
